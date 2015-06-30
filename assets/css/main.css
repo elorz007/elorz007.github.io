@@ -2371,6 +2371,20 @@
 				position: relative;
 				width: 100%;
 			}
+			.image.phone .top {
+				position: absolute;
+				top: 15%;
+				right: 15%;
+				height: 70%;
+				width: 70%;
+				border-radius: 7px;
+				border: solid 4px rgba(255,255,255, 0.25);
+			}
+			.image.phone .background {
+				height: 16em;
+
+				background-color: rgba(255,255,255,0.25);
+			}
 
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
